@@ -41,18 +41,18 @@ function produceReport(){
 
     document.getElementById("outputData").innerHTML+="<br>";
     document.getElementById("outputData").innerHTML+="<hr>"
-    document.getElementById("outputData").innerHTML+="<p>Your income for January is"+" "+tdProduction*30;
-    document.getElementById("outputData").innerHTML+="<p>Your income for February is"+" "+tdProduction+29;
-    document.getElementById("outputData").innerHTML+="<p>Your income for March is"+" "+tdProduction*31;
-    document.getElementById("outputData").innerHTML+="<p>Your income for April is"+" "+tdProduction*30;
-    document.getElementById("outputData").innerHTML+="<p>Your income for May is"+" "+tdProduction*31;
-    document.getElementById("outputData").innerHTML+="<p>Your income for June is"+" "+tdProduction*30;
-    document.getElementById("outputData").innerHTML+="<p>Your income for July is"+" "+tdProduction*31;
-    document.getElementById("outputData").innerHTML+="<p>Your income for August is"+" "+tdProduction*31;
-    document.getElementById("outputData").innerHTML+="<p>Your income for September is"+" "+tdProduction*30;
-    document.getElementById("outputData").innerHTML+="<p>Your income for October is"+" "+tdProduction*31;
-    document.getElementById("outputData").innerHTML+="<p>your income for November is"+" "+tdProduction*30;
-    document.getElementById("outputData").innerHTML+="<p>Your income for december is"+" "+tdProduction*31;
+    document.getElementById("outputData").innerHTML+="<p>Your income for January is"+" "+janInc;
+    document.getElementById("outputData").innerHTML+="<p>Your income for February is"+" "+febInc;
+    document.getElementById("outputData").innerHTML+="<p>Your income for March is"+" "+marchInc;
+    document.getElementById("outputData").innerHTML+="<p>Your income for April is"+" "+aprinc;
+    document.getElementById("outputData").innerHTML+="<p>Your income for May is"+" "+mayInc;
+    document.getElementById("outputData").innerHTML+="<p>Your income for June is"+" "+juninc;
+    document.getElementById("outputData").innerHTML+="<p>Your income for July is"+" "+julInc;
+    document.getElementById("outputData").innerHTML+="<p>Your income for August is"+" "+augInc;
+    document.getElementById("outputData").innerHTML+="<p>Your income for September is"+" "+sepInc;
+    document.getElementById("outputData").innerHTML+="<p>Your income for October is"+" "+octinc;
+    document.getElementById("outputData").innerHTML+="<p>your income for November is"+" "+novInc;
+    document.getElementById("outputData").innerHTML+="<p>Your income for december is"+" "+decInc;
 }
 function resetPage(){
     document.getElementById("outputData").remove("innerHTML");
