@@ -10,19 +10,19 @@
 <body>
     <section>
         <h1><b>Dairy Business Manager</b></h1>
-        <form action="submit" onsubmit="produceReport();">
-            Shed_A:<br><input type="number" id="shedA"/><br>
-            Shed_B:<br><input type="number" id="shedB"/><br>
-            Shed_C:<br><input type="number" id="shedC"/><br>
-            Shed_D:<br><input type="number" id="shedD"/><br>
-            <input type="button" type="submit" onclick="produceReport();" value="Submit">
-            
-            <button id="reset" type="reset" onclick="resetPage();">Reset</button>
-            <p>Summary
-            <span id="summary"></span>
-    
-        </p>
-        </form>
+        <div class="inputF">
+            <form action="submit" onsubmit="produceReport();">
+                Shed_A:(Milk in Litres)<br><input type="number" id="shedA"/><br>
+                Shed_B:(Milk in Litres)<br><input type="number" id="shedB"/><br>
+                Shed_C:(Milk in Litres)<br><input type="number" id="shedC"/><br>
+                Shed_D:(Milk in Litres)<br><input type="number" id="shedD"/><br>
+                <input type="button" type="submit" onclick="produceReport();" value="Submit">
+                
+                <button id="reset" type="reset" onclick="resetPage();">Reset</button>
+                <p>Summary</p>
+                <span id="summary"></span>
+            </form>
+        </div>
         <div class="outputDisplay">
             <h3 id="displayTitle">Production Summary</h3>
             <hr>
