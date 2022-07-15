@@ -1,5 +1,5 @@
-function produceReport()
-{
+function produceReport(){
+    event.preventDefault();
     let data=[];
     data[0]=parseInt(document.getElementById("shedA").value);
     data[1]=parseInt(document.getElementById("shedB").value);
@@ -13,7 +13,12 @@ function produceReport()
     document.getElementById("outputData").innerHTML+="<p>Your production for Shed B is" +" "+data[1]+" "+"Litres per day</p>";
     document.getElementById("outputData").innerHTML+="<p>Your production for Shed C is"+" "+data[2]+" "+"Litres per day</p>";
     document.getElementById("outputData").innerHTML+="<p>Your pruduction for Shed D is"+" "+data[3]+" "+"Litres per day</p>";
-    document.getElementById("outputData").innerHTML+="<p>The total production is"+" "+tdProduction+" "+"Litres per day</p>"
+    document.getElementById("outputData").innerHTML+="<p>The total production is"+" "+tdProduction+" "+"Litres per day</p>";
+
+    let weeklyInc=tdProduction*7;
+    document.getElementById("outputData").innerHTML+="<hr>"
+    document.getElementById("outputData").innerHTML+="<p>Your weekly income will be Ksh."+" "+weeklyInc*7+"</p>";
+    document.getElementById("outputData").innerHTML+="<hr>"
 
 }
 function resetPage(){
