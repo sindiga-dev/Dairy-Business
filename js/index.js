@@ -1,5 +1,4 @@
 function produceReport(){
-    event.preventDefault();
     let data=[];
     data[0]=parseInt(document.getElementById("shedA").value);
     data[1]=parseInt(document.getElementById("shedB").value);
@@ -18,6 +17,7 @@ function produceReport(){
     let weeklyInc=tdProduction*7;
     document.getElementById("outputData").innerHTML+="<hr>"
     document.getElementById("outputData").innerHTML+="<p>Your weekly income will be Ksh."+" "+weeklyInc*7+"</p>";
+    document.getElementById("outputData").innerHTML+="<p>Your yearly income will be Ksh."+tdProduction*365;
     document.getElementById("outputData").innerHTML+="<hr>"
 
 }
