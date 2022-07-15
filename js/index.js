@@ -14,5 +14,6 @@ function produceReport()
 
 
 function resetPage(){
-    
+    document.getElementById("outputData").remove("innerHTML");
+    location.reload();
 }
