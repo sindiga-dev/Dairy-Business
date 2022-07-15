@@ -10,7 +10,7 @@ By:Isaac Sindiga
 </ul>
 
 # Description
-This is a Dary Farm management system. The farmer inputs the daily amount of milk and it calculates the total milk production and amount earned according to the current milk price rates. This helps in managing
+This is a Dairy Farm management system. The farmer inputs the daily amount of milk and it calculates the total milk production and amount earned according to the current milk price rates. This helps in managing
 the farm milk records.
 
 # Installation
