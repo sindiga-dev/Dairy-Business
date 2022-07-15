@@ -7,6 +7,7 @@ function produceReport(){
 
     let sumData=data[0]+data[1]+data[2];
     let tdProduction=data[0]+data[1]+data[2]+data[3];
+    //daily data output
     document.getElementById("outputData").innerHTML+="<br>";
     document.getElementById("outputData").innerHTML+="<p>Your production for Shed A is" +" "+data[0]+" "+"Litres per day</p>";
     document.getElementById("outputData").innerHTML+="<p>Your production for Shed B is" +" "+data[1]+" "+"Litres per day</p>";
@@ -14,12 +15,29 @@ function produceReport(){
     document.getElementById("outputData").innerHTML+="<p>Your pruduction for Shed D is"+" "+data[3]+" "+"Litres per day</p>";
     document.getElementById("outputData").innerHTML+="<p>The total production is"+" "+tdProduction+" "+"Litres per day</p>";
 
+
+    //wekly totals lts
     let weeklyInc=tdProduction*7;
+    let yearlyInc=tdProduction*365;
     document.getElementById("outputData").innerHTML+="<hr>"
-    document.getElementById("outputData").innerHTML+="<p>Your weekly income will be Ksh."+" "+weeklyInc*7+"</p>";
-    document.getElementById("outputData").innerHTML+="<p>Your yearly income will be Ksh."+tdProduction*365;
+    document.getElementById("outputData").innerHTML+="<p>Your weekly income will be Ksh."+" "+weeklyInc+"</p>";
+    document.getElementById("outputData").innerHTML+="<p>Your yearly income will be Ksh."+yearlyInc;
     document.getElementById("outputData").innerHTML+="<hr>"
 
+
+    //leap year monthly totals Ksh.
+    let janInc=tdProduction*31;
+    let febInc=tdProduction*29;
+    let marchInc=tdProduction*31;
+    let aprinc=tdProduction*30;
+    let mayInc=tdProduction*31;
+    let juninc=tdProduction*30;
+    let julInc=tdProduction*31;
+    let augInc=tdProduction*31;
+    let sepInc=tdProduction*30;
+    let octinc=tdProduction*31;
+    let novInc=tdProduction*30;
+    let decInc=tdProduction*31;
 
     document.getElementById("outputData").innerHTML+="<br>";
     document.getElementById("outputData").innerHTML+="<hr>"
