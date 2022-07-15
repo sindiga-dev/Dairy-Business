@@ -22,3 +22,13 @@ body{
 h1{
     text-align: center
 }
+.outputDisplay{
+    clear: left;
+}
+
+@media screen and (max-width: 760px) {
+    .milkProduce{
+        display: flex;
+        flex-direction: column;  
+    }
+}
