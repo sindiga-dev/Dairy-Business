@@ -17,8 +17,8 @@ function produceReport(){
 
 
     //wekly totals lts
-    let weeklyInc=tdProduction*7;
-    let yearlyInc=tdProduction*365;
+    let weeklyInc=tdProduction*7*45;
+    let yearlyInc=tdProduction*365*45;
     document.getElementById("outputData").innerHTML+="<hr>"
     document.getElementById("outputData").innerHTML+="<p>Your weekly income will be Ksh."+" "+weeklyInc+"</p>";
     document.getElementById("outputData").innerHTML+="<p>Your yearly income will be Ksh."+yearlyInc;
@@ -26,18 +26,18 @@ function produceReport(){
 
 
     //leap year monthly totals Ksh.
-    let janInc=tdProduction*31;
-    let febInc=tdProduction*29;
-    let marchInc=tdProduction*31;
-    let aprinc=tdProduction*30;
-    let mayInc=tdProduction*31;
-    let juninc=tdProduction*30;
-    let julInc=tdProduction*31;
-    let augInc=tdProduction*31;
-    let sepInc=tdProduction*30;
-    let octinc=tdProduction*31;
-    let novInc=tdProduction*30;
-    let decInc=tdProduction*31;
+    let janInc=tdProduction*31*45;
+    let febInc=tdProduction*29*45;
+    let marchInc=tdProduction*31*45;
+    let aprinc=tdProduction*30*45;
+    let mayInc=tdProduction*31*45;
+    let juninc=tdProduction*30*45;
+    let julInc=tdProduction*31*45;
+    let augInc=tdProduction*31*45;
+    let sepInc=tdProduction*30*45;
+    let octinc=tdProduction*31*45;
+    let novInc=tdProduction*30*45;
+    let decInc=tdProduction*31*45;
 
     document.getElementById("outputData").innerHTML+="<br>";
     document.getElementById("outputData").innerHTML+="<hr>"
