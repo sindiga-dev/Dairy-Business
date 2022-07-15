@@ -8,14 +8,14 @@
     <link type="text/css" rel="stylesheet" href="./css/index.css">
 </head> 
 <body>
+    <h1><b>Dairy Business Manager</b></h1>
     <section>
-        <h1><b>Dairy Business Manager</b></h1>
         <div class="inputF">
             <form action="submit" onsubmit="produceReport();">
-                Shed_A:(Milk in Litres)<br><input type="number" id="shedA"/><br>
-                Shed_B:(Milk in Litres)<br><input type="number" id="shedB"/><br>
-                Shed_C:(Milk in Litres)<br><input type="number" id="shedC"/><br>
-                Shed_D:(Milk in Litres)<br><input type="number" id="shedD"/><br>
+                <div class="a">Shed_A:(Milk in Litres)<br><input type="number" id="shedA"/><br></div>
+                <div class="b"></div>Shed_B:(Milk in Litres)<br><input type="number" id="shedB"/><br></div>
+                <div class="c"></div>Shed_C:(Milk in Litres)<br><input type="number" id="shedC"/><br></div>
+                <div class="d"></div>Shed_D:(Milk in Litres)<br><input type="number" id="shedD"/><br></div>
                 <input type="button" type="submit" onclick="produceReport();" value="Submit">
                 
                 <button id="reset" type="reset" onclick="resetPage();">Reset</button>

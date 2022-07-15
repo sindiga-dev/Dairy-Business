@@ -3,4 +3,22 @@ body{
     background-color: black;
     color: white;
     font-family: 'roboto';
+    font-size: larger;
+    
+}
+.a{
+    padding-top: 2%;
+}
+.b{
+    padding-top: 5%;
+}
+.c{
+    padding-top: 5%;
+}
+.d{
+    padding-top: 5%;
+    padding-bottom: 2.7%;
+}
+h1{
+    text-align: center
 }
