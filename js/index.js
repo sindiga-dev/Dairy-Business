@@ -20,6 +20,21 @@ function produceReport(){
     document.getElementById("outputData").innerHTML+="<p>Your yearly income will be Ksh."+tdProduction*365;
     document.getElementById("outputData").innerHTML+="<hr>"
 
+
+    document.getElementById("outputData").innerHTML+="<br>";
+    document.getElementById("outputData").innerHTML+="<hr>"
+    document.getElementById("outputData").innerHTML+="<p>Your income for January is"+" "+tdProduction*30;
+    document.getElementById("outputData").innerHTML+="<p>Your income for February is"+" "+tdProduction+29;
+    document.getElementById("outputData").innerHTML+="<p>Your income for March is"+" "+tdProduction*31;
+    document.getElementById("outputData").innerHTML+="<p>Your income for April is"+" "+tdProduction*30;
+    document.getElementById("outputData").innerHTML+="<p>Your income for May is"+" "+tdProduction*31;
+    document.getElementById("outputData").innerHTML+="<p>Your income for June is"+" "+tdProduction*30;
+    document.getElementById("outputData").innerHTML+="<p>Your income for July is"+" "+tdProduction*31;
+    document.getElementById("outputData").innerHTML+="<p>Your income for August is"+" "+tdProduction*31;
+    document.getElementById("outputData").innerHTML+="<p>Your income for September is"+" "+tdProduction*30;
+    document.getElementById("outputData").innerHTML+="<p>Your income for October is"+" "+tdProduction*31;
+    document.getElementById("outputData").innerHTML+="<p>your income for November is"+" "+tdProduction*30;
+    document.getElementById("outputData").innerHTML+="<p>Your income for december is"+" "+tdProduction*31;
 }
 function resetPage(){
     document.getElementById("outputData").remove("innerHTML");
